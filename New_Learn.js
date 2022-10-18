@@ -16,3 +16,4 @@ let div = document.createElement('div');
 div.className = "alert";
 div.innerHTML = "<strong>Hello everyone!</strong> You read important information!";
 document.body.append(div);
+document.body.style.background = prompt("What color of background do you want to set?", "white");
