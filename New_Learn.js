@@ -53,7 +53,7 @@ some_information.style.offsetHeight = '100px';
 some_information.style.offsetWeigth = '100px';
 some_information.style.overflow = '';
 
-setInterval(() => elem.hidden = !elem.hidden, 1000);
+//setInterval(() => elem.hidden = !elem.hidden, 1000);
 
 let div = document.createElement('div');
 div.className = "alert";
