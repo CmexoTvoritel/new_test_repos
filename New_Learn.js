@@ -59,3 +59,11 @@ let div = document.createElement('div');
 div.className = "alert";
 div.innerHTML = "<strong>Hello everyone!</strong> You read important information!";
 document.body.append(div);
+
+
+let panes = document.querySelectorAll('.pane');
+
+for(let pane of panes) {
+    pane.insertAdjacentHTML("afterbegin", '<button class="remove-button">[x]</button>');
+    pane.firstChild.onclick = () => pane.remove();
+}
